@@ -17,5 +17,9 @@ use App\Http\Controllers\HomeController;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-Route::get('/',[LoginController::class,'index'])->name('home');
+Route::get('/',[LoginController::class,'index'])->name('login');
+Route::get('/loginadmin',[HomeController::class,'home'])->name('Dashboard');
 Route::post('/loginadmin',[HomeController::class,'home'])->name('page');
+Route::get('/register',[LoginController::class, 'register'])->name('register');
+
+Route::get('/report/member',[HomeController::class,'showmember'])->name('reportmember');
