@@ -14,7 +14,7 @@
                 <img src=" " class="img-circle elevation-2" alt="User Image">
             </div>
             <div class="info">
-                <a class="d-block">Admin</a>
+                <a class="d-block"></a>
             </div>
         </div>
 
