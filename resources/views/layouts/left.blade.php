@@ -39,10 +39,9 @@
                with font-awesome or any other icon font library -->
                 <li class="nav-item">
                     <a href="{{ route('Dashboard') }}" class="nav-link">
-                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        <i class="nav-icon fas fa-chart-pie "></i>
                         <p>
                             แดชบอร์ด
-                            {{-- <span class="right badge badge-danger">New</span> --}}
                         </p>
                     </a>
                 </li>
@@ -51,10 +50,61 @@
                         <i class="nav-icon fas fa-user-friends"></i>
                         <p>
                             รายการสมาชิก
-                            {{-- <span class="right badge badge-danger">New</span> --}}
                         </p>
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="nav-icon fa fa-truck"></i>
+                      <p>
+                        รายการรับเข้า/ส่งออก
+                        <i class="fas fa-angle-left right"></i>
+                      </p>
+                    </a>
+                    <ul class="nav nav-treeview" style="display: none;">
+                      <li class="nav-item">
+                        <a href="#" class="nav-link">
+                          <i class="far fa-circle nav-icon"></i>
+                          <p>ประวัติการรับเข้า</p>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#" class="nav-link">
+                          <i class="far fa-circle nav-icon"></i>
+                          <p>ประวัติการส่งออก</p>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="nav-icon fa fa-shopping-basket"></i>
+                      <p>
+                        รายการสินค้าทั้งหมด
+                        <i class="fas fa-angle-left right"></i>
+                      </p>
+                    </a>
+                    <ul class="nav nav-treeview" style="display: none;">
+                      <li class="nav-item">
+                        <a href="#" class="nav-link">
+                          <i class="far fa-circle nav-icon"></i>
+                          <p>ประเภทสินค้า</p>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#" class="nav-link">
+                          <i class="far fa-circle nav-icon"></i>
+                          <p>รายละเอียดสินค้า</p>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#" class="nav-link">
+                          <i class="far fa-circle nav-icon"></i>
+                          <p>รายการจำนวนสินค้า</p>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
             </ul>
         </nav>
         <!-- /.sidebar-menu -->

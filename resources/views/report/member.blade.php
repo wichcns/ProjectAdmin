@@ -5,15 +5,25 @@
 
     <section class="content">
         <div class="card">
-            <div class="card-header">
-                <h3 class="card-title">รายละเอียดของMember</h3>
+            <div class="content-header">
+                <div class="container-fluid">
+                    <div class="row mb-2">
+                        <div class="col-sm-12">
+                            <h3>รายละเอียดสมาชิก ทั้งหมด
+                                <button type="button" class="btn bg-gradient-primary" id="Create">
+                                    <i class="fa fa-plus"></i> เพิ่มพนักงาน
+                                </button>
+                            </h3>
+                        </div><!-- /.col -->
+                    </div><!-- /.row -->
+                </div><!-- /.container-fluid -->
             </div>
             <!-- /.card-header -->
             <div class="card-body">
                 <div id="example2_wrapper" class="dataTables_wrapper dt-bootstrap4">
                     <div class="row">
                         <div class="col-sm-12">
-                            <table id="example2" class="table table-bordered table-hover dataTable dtr-inline"
+                            <table id="example2" class="table table-bordered table-hover"
                                 aria-describedby="example2_info">
                                 <thead>
                                     <tr>

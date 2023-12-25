@@ -41,8 +41,19 @@
           <i class="fas fa-expand-arrows-alt"></i>
         </a>
       </li> --}}
-      <li class="nav-item">
-            <a href="#" class="d-block">Admin</a>
+      <li class="nav-item dropdown">
+        <a class="d-block" data-toggle="dropdown" href="#">
+        Admin
+        </a>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-users mr-2"></i>Profile
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="{{route('login')}}" class="dropdown-item">
+            <i class="fa fa-sign-out mr-2"></i>logout
+          </a>
+        </div>
       </li>
     </ul>
   </nav>
